@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table,th,
+td {
+border: 1px solid black;
+}
+</style>
+<body>
+<table>
+<tr>
+<th>Message</th>
+<th>Date Added</th>
+</tr>
+{% for messages in message %}
+<tr>
+<td>{{ messages['message']}}</td>
+<td>{{ messages['timeadded'] }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</head>
+</html>
