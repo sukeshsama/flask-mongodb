@@ -1,4 +1,4 @@
-# Python Flask based API to save user input to MongoDB
+# Python Flask based API to save the user input to MongoDB
 
 ## Requirements:
 1. CentOs or any other linux flavor
@@ -11,7 +11,7 @@
 8. From Browser http://127.0.0.1:5000/form and input your message and enter
 9. To validate the data run this from browser http://127.0.0.1:5000/read
 
-## Build Docker Image and Run Flask in container
+## Build Docker Image and Run Flask in a container
 $docker build -t python-flask:latest  
 $docker run -d --network=host -p 5000:5000 python-flask:latest  
 
