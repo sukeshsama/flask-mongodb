@@ -19,6 +19,6 @@ From Browser http://127.0.0.1:5000/form and input your message and enter
 To validate the data run this from browser http://127.0.0.1:5000/read
 
 ## What else can be done to run this setup automatically:
-2. Run Docker Image in any multi cloud or on bare metal using ansible
+Run Docker Image in any multi cloud or on bare metal using ansible
 
 
